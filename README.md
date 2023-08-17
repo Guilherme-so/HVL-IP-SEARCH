@@ -14,9 +14,9 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-
 ## Como usar
+
 A busca está sendo por nome, Na planilha do `Excel` a coluna nome tem que está: `NOME`, em maiúsculo.
 Não necessariamente precisa de outras colunas como `CARGO` ou `#`, mais caso colocado também ira funcionar.
 
-
+<img src="https://github.com/Guilherme-so/HVL-IP-SEARCH-/main/public/excel_ex.png"/>
