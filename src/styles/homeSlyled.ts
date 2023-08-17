@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HomeSlyled = styled.nav`
   display: flex;
-  margin: 100px auto;
+  margin: 50px auto;
   justify-content: center;
 `;
 

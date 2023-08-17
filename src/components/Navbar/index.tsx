@@ -19,7 +19,6 @@ interface Address {
 
 function Navbar() {
   const [IpAddress, setIpAddress] = useState<Address[]>([]);
-
   const excelData = useSelector((state: RootState) => state.excel.value);
   const dispatch = useDispatch();
 
