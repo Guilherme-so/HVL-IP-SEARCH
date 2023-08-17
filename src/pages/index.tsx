@@ -26,7 +26,7 @@ export default function Home() {
     [searchValue]
   );
   useEffect(() => {
-    const novaLista = excelData.filter((item) => searchItems(item.NAME));
+    const novaLista = excelData.filter((item) => searchItems(item.NOME));
     setSearchList(novaLista);
     dispatch(searchExcel(novaLista));
     if (searchValue === "") {
@@ -42,7 +42,7 @@ export default function Home() {
         <SearchBox>
           <input
             type="text"
-            placeholder="SEARCH FOR IP ADDRESS"
+            placeholder="BUSCA PELO NOME..."
             onChange={(e) => setSearchValue(e.target.value)}
           />
         </SearchBox>
